@@ -68,18 +68,42 @@
 			children = (
 				E43A102025AFC12C003468E1 /* AppDelegate.swift */,
 				E43A102225AFC12C003468E1 /* SceneDelegate.swift */,
-				E43A104E25B00FF7003468E1 /* VideoCapture.swift */,
-				E43A105225B050EC003468E1 /* CVPixelBuffer+Helpers.swift */,
-				E43A102425AFC12C003468E1 /* ViewController.swift */,
-				E43A104A25B00279003468E1 /* MobileNetTestViewController.swift */,
-				E43A102625AFC12C003468E1 /* Main.storyboard */,
+				E4ACF3E525B2F8A100E4BF43 /* Model */,
+				E4ACF3E725B2F8B700E4BF43 /* Controller */,
+				E4ACF3EA25B2F8D800E4BF43 /* View */,
 				E43A102925AFC12D003468E1 /* Assets.xcassets */,
 				E43A102B25AFC12D003468E1 /* LaunchScreen.storyboard */,
 				E43A102E25AFC12D003468E1 /* Info.plist */,
-				E43A104425AFECFC003468E1 /* DogCatRabbitImageClassifierV1.mlmodel */,
-				E43A104725AFF2F9003468E1 /* MobileNet.mlmodel */,
 			);
 			path = MachineLearnigWithApple;
+			sourceTree = "<group>";
+		};
+		E4ACF3E525B2F8A100E4BF43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E43A104725AFF2F9003468E1 /* MobileNet.mlmodel */,
+				E43A104425AFECFC003468E1 /* DogCatRabbitImageClassifierV1.mlmodel */,
+				E43A105225B050EC003468E1 /* CVPixelBuffer+Helpers.swift */,
+				E43A104E25B00FF7003468E1 /* VideoCapture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4ACF3E725B2F8B700E4BF43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E43A104A25B00279003468E1 /* MobileNetTestViewController.swift */,
+				E43A102425AFC12C003468E1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4ACF3EA25B2F8D800E4BF43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E43A102625AFC12C003468E1 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

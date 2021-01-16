@@ -36,7 +36,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         guard let model = try? VNCoreMLModel(for: DogCatRabbitImageClassifierV1(configuration: MLModelConfiguration.init()).model) else {
             fatalError("can't load model for CoreML")
         }
-        let request = VNCoreMLRequest(model: model) { (req, error) in
+        let request = VNCoreMLRequest (model: model) { (req, error) in
             guard let results = req.results as? [VNClassificationObservation] else{
                 fatalError ("model fail to go ahead")
             }
